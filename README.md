@@ -10,7 +10,7 @@ Run `npm start` to start the MonetDB RESTful Proxy. The Node.js process will sta
 # API
 ## Database management
 HTTP method | URI path | Body | Description
----    | --- | ---
+---    | --- | --- | ---
 GET    | /database/_all | | List all attached databases
 PUT    | /database/`<database-name>` | Content-Type: application/json<br /> {<br />  "host" : "`<hostname>`",<br />  "port" : `<port>`,<br />   "user" : "`<username>`",<br />  "password" : "`<password>`"<br /> } | Attach a database with the specified name and connection
 DELETE | /database/`<database-name>` | | Detach the database with the specified name
@@ -19,7 +19,7 @@ GET    | /database/`<database-name>`/_api | | List all available endpoints at da
 
 ## Data management
 HTTP method | URI path | Body | Description
----    | --- | ---
+---    | --- | --- | ---
 GET    | /database/`<database-name>`/schema/_all | | List all schemas
 GET    | /database/`<database-name>`/schema/`<schema-name>`/_api | | List all available endpoints at schema level
 GET    | /database/`<database-name>`/schema/`<schema-name>`/table/_all | | List all available tables for the schema
@@ -51,7 +51,7 @@ GET    | /database/`<database-name>`/function/`<function-name>`?a=`<value-1>`&b=
 To start working with document one must first create a schema `documents` and a table `documents` with the following columns: `_id int`, `body json`. If the schema and table are no found in the attache database, the proxy can create them with a `POST` to `/database/<database-name>/document/_init`.
 
 HTTP method | URI path | Body | Description
----    | --- | ---
+---    | --- | --- | ---
 POST   | /database/`<database-name>`/document/_init | | Initialise the document storage schema and table
 GET    | /database/`<database-name>`/document/_all | | List all documents
 POST   | /database/`<database-name>`/document/ | Content-Type: application/json<br /> Document body | Store a document with a auto-generated ID
