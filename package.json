@@ -1,0 +1,28 @@
+{
+  "name": "monetdb-rest",
+  "version": "0.0.2",
+  "private": true,
+  "description": "MonetDB RESTful Proxy",
+  "keywords": [
+    "MonetDB",
+    "REST"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+    "lodash": "^3.10.1",
+    "monetdb": "^0.2.8",
+    "node-uuid": "^1.4.3",
+    "q": "^1.4.1",
+    "serve-favicon": "^2.3.0"
+  },
+  "author": {
+    "name": "Dimitar Nedev",
+    "email": "dimitar.nedev@monetdbsolutions.com"
+  },
+  "license": "MPL-2.0"
+}
