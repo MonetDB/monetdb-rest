@@ -1,7 +1,6 @@
 {
   "name": "monetdb-rest",
   "version": "0.0.2",
-  "private": true,
   "description": "MonetDB RESTful Proxy",
   "keywords": [
     "MonetDB",
