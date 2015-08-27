@@ -5,7 +5,7 @@
 A proxy for MonetDB that provides a RESTful interface and extended documents support. It currently intended for as an experiment, rather than a complete replacement of the MonetDB SQL interface and MAPI protocol. Having said that, the proxy is meant to be extensible (see below).
 
 # Installation and start
-Run `npm install` to install any dependencies
+Run `npm install [-g] monetdb-rest` to install any dependencies
 
 Run `npm start` to start the MonetDB RESTful Proxy. The Node.js process will start on port `8888`.
 
