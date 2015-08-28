@@ -51,7 +51,7 @@ GET    | /database/`<database-name>`/function/`<function-name>`?a=`<value-1>`&b=
 * JSON `null` values are passed to the database as null values.
 
 ## Document management
-To start working with document one must first create a schema `documents` and a table `documents` with the following columns: `_id int`, `body json`. If the schema and table are no found in the attache database, the proxy can create them with a `POST` to `/database/<database-name>/document/_init`.
+To start working with document one must first create a schema `documents` and a table `documents` with the following columns: `_id int`, `body json`. If the schema and table are no found in the attached database, the proxy can create them with a `POST` to `/database/<database-name>/document/_init`.
 
 HTTP method | URI path | Body | Description
 ---    | --- | --- | ---
