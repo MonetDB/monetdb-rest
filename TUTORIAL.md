@@ -11,7 +11,7 @@ shell> monetdb start test
 Now install the REST proxy via NPM, or clone sources the REST proxy in a new directory and install the dependencies with NPM, and start the app:
 ```
 shell> npm install monetdb-rest
-shell> npm start
+shell> npm start monetdb-rest
 ```
 The proxy will start on port `8888`. By default no database connection are attached, so let's do that next:
 ```
