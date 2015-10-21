@@ -89,7 +89,7 @@ Document b564796c-5783-47cc-98eb-5e576fab924f created
 ```
 The responses you get is probably slightly different, this is because the documents were stored with under generated UUID. Now, let's store another one, giving it an explicit id:
 ```
-shell> curl -X PUT -H "Content: "Second Foundation", "authors": ["Isaac Asimov"], "genre": "sci-fi"}' localhost:8888/database/test/document/foundation2/
+shell> curl -X PUT -H "Content-Type: application/json" -d '{"type": "book", "title": "Second Foundation", "authors": ["Isaac Asimov"], "genre": "sci-fi"}' localhost:8888/database/test/document/foundation2/
 Document foundation2 created
 ```
 Let's see what we have stored so far:
