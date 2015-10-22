@@ -1,6 +1,6 @@
 {
   "name": "monetdb-rest",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "MonetDB RESTful Proxy",
   "keywords": [
     "monetdb",
@@ -11,8 +11,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "body-parser": "^1.13.3",
-    "express": "^4.13.2",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
     "lodash": "^3.10.1",
     "monetdb": "^0.2.8",
     "node-uuid": "^1.4.3",
