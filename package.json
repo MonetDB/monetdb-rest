@@ -14,7 +14,7 @@
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "lodash": "^3.10.1",
-    "monetdb": "^0.2.8",
+    "monetdb": "^1.0.6",
     "node-uuid": "^1.4.3",
     "q": "^1.4.1",
     "serve-favicon": "^2.3.0"
@@ -22,6 +22,16 @@
   "author": {
     "name": "Dimitar Nedev",
     "email": "dimitar.nedev@monetdbsolutions.com"
+  },
+  "contributors": [
+    {
+      "name": "Robin Cijvat",
+      "email": "robin.cijvat@monetdbsolutions.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MonetDB/monetdb-rest"
   },
   "license": "MPL-2.0"
 }
