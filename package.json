@@ -16,7 +16,6 @@
     "lodash": "^3.10.1",
     "monetdb": "^1.0.6",
     "node-uuid": "^1.4.3",
-    "q": "^1.4.1",
     "serve-favicon": "^2.3.0"
   },
   "author": {
