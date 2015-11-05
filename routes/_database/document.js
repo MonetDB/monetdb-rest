@@ -6,7 +6,7 @@ var _ = require('lodash');
 
 var routeLoader = require(path.resolve('./lib/route-loader'));
 var MonetDBInterface = require(path.resolve('./lib/monetdb-interface'));
-var documentOps = require(path.resolve('./lib/document-operations'));
+var errorHandler = require(path.resolve('./lib/error-handler'));
 
 var	router = express.Router();
 
@@ -67,7 +67,7 @@ module.exports = function(app, options) {
 		dbInterface.select(schema, table, {
 			columns : 	[]
 		}).then(function(result) {
-			res.send(documentOps.parseDocumentsArray(result.data));
+			res.send(result.data);
 		}, function(err) {
 			res.status(500).send(err);
 		});
