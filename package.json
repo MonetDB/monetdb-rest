@@ -14,8 +14,8 @@
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "lodash": "^3.10.1",
-    "monetdb": "^1.0.6",
-    "node-uuid": "^1.4.3",
+    "monetdb": "^1.0.7",
+    "node-uuid": "^1.4.7",
     "serve-favicon": "^2.3.0"
   },
   "author": {
