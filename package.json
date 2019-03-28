@@ -13,7 +13,7 @@
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "lodash": "^3.10.1",
+    "lodash": ">=4.17.11",
     "monetdb": "^1.0.7",
     "node-uuid": "^1.4.7",
     "serve-favicon": "^2.3.0"
